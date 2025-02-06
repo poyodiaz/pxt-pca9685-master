@@ -463,7 +463,7 @@ namespace PCA9685 {
 
         write(chipAddress, modeRegister1, wake)
 
-        //control.waitMicros(1000)
+        control.waitMicros(1000)
         write(chipAddress, modeRegister1, restart)
     }
 
